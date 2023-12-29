@@ -62,7 +62,7 @@ echo -e "\033[1;33m AGUARDE..."
 echo -e "\033[1;34m ================================="
 IP=$(wget -qO- ipv4.icanhazip.com)
 if [[ -e "/var/www/html/Plus" ]]; then
-sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/Plus > /dev/null 2>&1
+sed -i "s;209.14.2.46;$IP;g" /var/www/html/Plus > /dev/null 2>&1
 fi
 sleep 6s
 clear
