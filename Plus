@@ -4,7 +4,7 @@ rm $HOME/Plus > /dev/null 2>&1
 rm /root/Plus > /dev/null 2>&1
 clear
 IP=$(wget -qO- ipv4.icanhazip.com)
-link="SEU-IP-AKI"
+link="209.14.2.46"
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "BEM VINDO AO SSHPLUS MANAGER" ; tput sgr0
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
